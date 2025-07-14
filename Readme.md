@@ -19,25 +19,9 @@ React Native,Expo,JavaScript,React Navigation,Postman,FlatList,Yelp Api,React Ho
 
 Api bilgisi: Bu uygulamada veriler Yelp Fusion Api üzerinden çekilmiştir kendiniz çalıştırmak için Yelp'ten kendi API anahtarınızı almanız ve ilgili dosyaya eklemeniz gerekmektedir.
 
-Depoyu klonla:
-
-Bash
-
-git clone https://github.com/kullanici-adin/proje-adin.git
-Dizine git:
-
-Bash
-
-cd proje-adin
-Gerekli kütüphaneleri yükle:
-
-Bash
-
+```bash
+git clone [https://github.com/sametoznr/restoran-siralama.git](https://github.com/sametoznr/restoran-siralama.git)
+cd restoran-siralama
 npm install
-Uygulamayı başlat:
-
-Bash
-
 npm start
-🌐 API Bilgisi
-Bu uygulamada kullanılan veriler [API'nin Adı veya Kaynağı] API'sinden çekilmektedir.
+```
