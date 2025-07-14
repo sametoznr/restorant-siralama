@@ -5,7 +5,9 @@ Ekran Görüntüleri
 
 
 https://hizliresim.com/ltiyo39 - Anasayfa
+
 https://hizliresim.com/7iyrg10 - Listeleme 
+
 https://hizliresim.com/1bi3314 - Restoran detayı
 
 
