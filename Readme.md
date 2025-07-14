@@ -2,6 +2,8 @@ Restoran Filtreleme Uygulaması
 Kullanıcıların çeşitli restoranları keşfetmesine, fiyatlarına göre filtrelemesine ve menülerindeki ürünlere göre arama yapmasına olanak tanıyan bir React Native mobil uygulamasıdır. Restoranların anlık açık/kapalı durumları da API üzerinden kontrol edilmektedir.
 
 Ekran Görüntüleri
+
+
 https://hizliresim.com/ltiyo39 - Anasayfa
 https://hizliresim.com/7iyrg10 - Listeleme 
 https://hizliresim.com/1bi3314 - Restoran detayı
