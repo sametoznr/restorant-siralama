@@ -6,7 +6,7 @@ Kullanıcıların restoranları keşfetmesini, fiyatlarına göre filtrelemesini
 
 | Ana Sayfa | Listeleme | Restoran Detayı |
 | :---: | :---: | :---: |
-| <img src="https://i.hizliresim.com/ltiyo39.png" alt="Ana Sayfa" width="250"> | <img src="https://i.hizliresim.com/7iyrg10.png" alt="Listeleme" width="250"> | <img src="https://i.hizliresim.com/1bi3314.png" alt="Restoran Detayı" width="250"> |
+| <img src="./assets/anasayfa.png" alt="Ana Sayfa" width="250"> | <img src="./assets/liste.png" alt="Listeleme" width="250"> | <img src="./assets/detay.png" alt="Restoran Detayı" width="250"> | |
 
 ## ✨ Özellikler
 
