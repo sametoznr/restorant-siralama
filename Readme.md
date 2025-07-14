@@ -1,43 +1,44 @@
-Restoran Filtreleme Uygulaması 
-Kullanıcıların çeşitli restoranları keşfetmesine, fiyatlarına göre filtrelemesine ve menülerindeki ürünlere göre arama yapmasına olanak tanıyan bir React Native mobil uygulamasıdır. Restoranların anlık açık/kapalı durumları da API üzerinden kontrol edilmektedir.
+# Restoran Filtreleme Uygulaması
 
-Ekran Görüntüleri
-https://hizliresim.com/ltiyo39 - Anasayfa
-https://hizliresim.com/7iyrg10 - Listeleme 
-https://hizliresim.com/1bi3314 - Restoran detayı
+Kullanıcıların restoranları keşfetmesini, fiyatlarına göre filtrelemesini ve menülerindeki ürünlere göre arama yapmasını sağlayan bir React Native mobil uygulamasıdır. Uygulama, restoranların anlık açık/kapalı durumunu da API üzerinden kontrol eder.
 
+## 📱 Ekran Görüntüleri
 
-Özellikler 
-Harici bir API üzerinden tüm restoran verileri asenkron olarak çekilmektedir.Gelen verilere uygun,orta,pahalı olarak restoranları
-gruplanması sağlanır.Kullanıcı arama çubuğunu kullandığında menülerinde bulunan ürünlere göre restoranlar arasında filtreleme yapılır.
-Apiden gelen veriye göre restorant açık ise yeşil kapalı ise kırmızı durum ikonu döner.Her restoran kendine ait detay sayfasına yönlendirme yapar.
+| Ana Sayfa | Listeleme | Restoran Detayı |
+| :---: | :---: | :---: |
+| <img src="./assets/anasayfa.png" alt="Ana Sayfa" width="250"> | <img src="./assets/liste.png" alt="Listeleme" width="250"> | <img src="./assets/detay.png" alt="Restoran Detayı" width="250"> | |
 
+## ✨ Özellikler
 
-Kullanılan Teknolojiler 
+* Harici bir API (Yelp) üzerinden tüm restoran verileri asenkron olarak çekilir.
+* Gelen verilere göre restoranlar "Uygun", "Orta" ve "Pahalı" olarak gruplanır.
+* Kullanıcı arama çubuğuna bir ürün yazdığında, restoranlar anlık olarak filtrelenir.
+* API'den gelen veriye göre, restoranın açık veya kapalı olduğunu gösteren durum ikonu (yeşil/kırmızı) bulunur.
+* Her restoran, kendine ait detay sayfasına sahiptir ve yönlendirme yapılır.
 
-React Native,Expo,JavaScript,React Navigation,Postman,FlatList,Yelp Api,React Hooks (useState, useEffect)
+## 🛠️ Kullanılan Teknolojiler
 
-Api bilgisi: Bu uygulamada veriler Yelp Fusion Api üzerinden çekilmiştir kendiniz çalıştırmak için Yelp'ten kendi API anahtarınızı almanız ve ilgili dosyaya eklemeniz gerekmektedir.
+* React Native
+* Expo
+* JavaScript
+* React Navigation
+* React Hooks (`useState`, `useEffect`)
+* FlatList
+* Yelp API
+* Postman
 
-Depoyu klonla:
+## 🚀 Kurulum
 
-Bash
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
-git clone https://github.com/kullanici-adin/proje-adin.git
-Dizine git:
+```bash
+# 1. Projeyi klonlayın
+git clone [https://github.com/sametoznr/restoran-siralama.git](https://github.com/sametoznr/restoran-siralama.git)
 
-Bash
+# 2. Proje dizinine gidin
+cd restoran-siralama
 
-cd proje-adin
-Gerekli kütüphaneleri yükle:
-
-Bash
-
+# 3. Gerekli paketleri yükleyin
 npm install
-Uygulamayı başlat:
 
-Bash
-
-npm start
-🌐 API Bilgisi
-Bu uygulamada kullanılan veriler [API'nin Adı veya Kaynağı] API'sinden çekilmektedir.
+# 4
