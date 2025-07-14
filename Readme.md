@@ -1,32 +1,44 @@
-Restoran Filtreleme Uygulaması 
+# Restoran Filtreleme Uygulaması
 
-Kullanıcıların çeşitli restoranları keşfetmesine, fiyatlarına göre filtrelemesine ve menülerindeki ürünlere göre arama yapmasına olanak tanıyan bir React Native mobil uygulamasıdır. Restoranların anlık açık/kapalı durumları da API üzerinden kontrol edilmektedir.
+Kullanıcıların restoranları keşfetmesini, fiyatlarına göre filtrelemesini ve menülerindeki ürünlere göre arama yapmasını sağlayan bir React Native mobil uygulamasıdır. Uygulama, restoranların anlık açık/kapalı durumunu da API üzerinden kontrol eder.
 
-Ekran Görüntüleri
+## 📱 Ekran Görüntüleri
 
+| Ana Sayfa | Listeleme | Restoran Detayı |
+| :---: | :---: | :---: |
+| <img src="https://i.hizliresim.com/ltiyo39.png" alt="Ana Sayfa" width="250"> | <img src="https://i.hizliresim.com/7iyrg10.png" alt="Listeleme" width="250"> | <img src="https://i.hizliresim.com/1bi3314.png" alt="Restoran Detayı" width="250"> |
 
-https://hizliresim.com/ltiyo39 - Anasayfa
+## ✨ Özellikler
 
-https://hizliresim.com/7iyrg10 - Listeleme 
+* Harici bir API (Yelp) üzerinden tüm restoran verileri asenkron olarak çekilir.
+* Gelen verilere göre restoranlar "Uygun", "Orta" ve "Pahalı" olarak gruplanır.
+* Kullanıcı arama çubuğuna bir ürün yazdığında, restoranlar anlık olarak filtrelenir.
+* API'den gelen veriye göre, restoranın açık veya kapalı olduğunu gösteren durum ikonu (yeşil/kırmızı) bulunur.
+* Her restoran, kendine ait detay sayfasına sahiptir ve yönlendirme yapılır.
 
-https://hizliresim.com/1bi3314 - Restoran detayı
+## 🛠️ Kullanılan Teknolojiler
 
-Özellikler 
+* React Native
+* Expo
+* JavaScript
+* React Navigation
+* React Hooks (`useState`, `useEffect`)
+* FlatList
+* Yelp API
+* Postman
 
-Harici bir API üzerinden tüm restoran verileri asenkron olarak çekilmektedir.Gelen verilere uygun,orta,pahalı olarak restoranları
-gruplanması sağlanır.Kullanıcı arama çubuğunu kullandığında menülerinde bulunan ürünlere göre restoranlar arasında filtreleme yapılır.
-Apiden gelen veriye göre restorant açık ise yeşil kapalı ise kırmızı durum ikonu döner.Her restoran kendine ait detay sayfasına yönlendirme yapar.
+## 🚀 Kurulum
 
-
-Kullanılan Teknolojiler 
-
-React Native,Expo,JavaScript,React Navigation,Postman,FlatList,Yelp Api,React Hooks (useState, useEffect)
-
-Api bilgisi: Bu uygulamada veriler Yelp Fusion Api üzerinden çekilmiştir kendiniz çalıştırmak için Yelp'ten kendi API anahtarınızı almanız ve ilgili dosyaya eklemeniz gerekmektedir.
+Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
 ```bash
+# 1. Projeyi klonlayın
 git clone [https://github.com/sametoznr/restoran-siralama.git](https://github.com/sametoznr/restoran-siralama.git)
+
+# 2. Proje dizinine gidin
 cd restoran-siralama
+
+# 3. Gerekli paketleri yükleyin
 npm install
-npm start
-```
+
+# 4
