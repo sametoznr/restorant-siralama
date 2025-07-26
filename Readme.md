@@ -27,18 +27,4 @@ Kullanıcıların restoranları keşfetmesini, fiyatlarına göre filtrelemesini
 * Yelp API
 * Postman
 
-## 🚀 Kurulum
 
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
-
-```bash
-# 1. Projeyi klonlayın
-git clone [https://github.com/sametoznr/restoran-siralama.git](https://github.com/sametoznr/restoran-siralama.git)
-
-# 2. Proje dizinine gidin
-cd restoran-siralama
-
-# 3. Gerekli paketleri yükleyin
-npm install
-
-# 4
